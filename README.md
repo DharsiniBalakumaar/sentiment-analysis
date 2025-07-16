@@ -13,35 +13,35 @@ You can:
 
 ## Features
 
-👉 Chrome context menu integration
-👉 Text selection support
-👉 AI sentiment analysis via `transformers` pipeline
-👉 Notifications using Chrome APIs
-👉 Backend with Flask + HuggingFace
-👉 Full-stack integration of extension + Python ML model
-👉 Text-to-Speech feedback using Web Speech API
+1. Chrome context menu integration
+2. Text selection support
+3. AI sentiment analysis via `transformers` pipeline
+4. Notifications using Chrome APIs
+5. Backend with Flask + HuggingFace
+6. Full-stack integration of extension + Python ML model
+7. Text-to-Speech feedback using Web Speech API
 
 ---
 
 ## Project Structure
-
+```
 sentiment-extension-ai/
-├── backend/ # Flask AI Server
-│ ├── app.py
-│ ├── sentiment_model.pkl
-│ ├── vectorizer.pkl
-│ ├── templates/
-│ │ └── index.html
-│ └── requirements.txt
-│
-├── extension/ # Chrome Extension
-│ ├── background.js
-│ ├── manifest.json
-│ ├── icon.png
-│ └── popup.html (optional)
-│
+├── backend/              # Flask AI Server  
+│   ├── app.py  
+│   ├── sentiment_model.pkl  
+│   ├── vectorizer.pkl  
+│   ├── templates/  
+│   │   └── index.html  
+│   └── requirements.txt  
+│  
+├── extension/            # Chrome Extension  
+│   ├── background.js  
+│   ├── manifest.json  
+│   ├── icon.png  
+│   └── popup.html (optional)  
+│  
 └── README.md
-
+```
 ---
 
 ## Flask Backend Setup
